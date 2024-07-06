@@ -6,7 +6,7 @@ class TestZoo (TestCase):
 
 
     def setUp(self) -> None:
-       self.zoo_1: Zoo= Zoo()
+       self.zoo_1: Zoo= Zoo(c)
 
        self.zookeeper_1: ZooKeeper= ZooKeeper(nome= "Mimmo",cognome= "me puzza",id=1)
        self.fence_1 : Fence = Fence(area=100,temperature=25.0, habitat="Savana")
