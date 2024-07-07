@@ -1,8 +1,8 @@
 import unittest
 from unittest import TestCase
-from src.Blockbuster.film import Film
-from src.Blockbuster.movie_genre import Azione, Drama, Commedia
-from src.Blockbuster.noleggio import Noleggio
+from BlockbusterProject.src.film import Film
+from BlockbusterProject.src.movie_genre import Azione, Drama, Commedia
+from BlockbusterProject.src.noleggio import Noleggio
 
 
 class testFilm (TestCase):
@@ -31,7 +31,7 @@ class testFilm (TestCase):
     def test_IsAvaible(self):
         #  test per verificare che un film disponibile ritorni True.
         message: str = f'Error: i film hanno codici differenti'
-        
+
         self.assertTrue(self.blockbuster.isAvaible(self.film1),message)
 
 
