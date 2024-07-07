@@ -31,7 +31,15 @@ class testFilm (TestCase):
     def test_IsAvaible(self):
         #  test per verificare che un film disponibile ritorni True.
         message: str = f'Error: i film hanno codici differenti'
+        
         self.assertTrue(self.blockbuster.isAvaible(self.film1),message)
+
+
+
+
+if __name__ == "__main__":
+
+    unittest.main()
 
 
 
