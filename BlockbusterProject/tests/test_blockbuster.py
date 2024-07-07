@@ -1,8 +1,8 @@
 import unittest
 from unittest import TestCase
-from BlockbusterProject.src.film import Film
-from BlockbusterProject.src.movie_genre import Azione, Drama, Commedia
-from BlockbusterProject.src.noleggio import Noleggio
+from src.film import Film
+from src.movie_genre import Azione, Drama, Commedia
+from src.noleggio import Noleggio
 
 
 class testFilm (TestCase):
